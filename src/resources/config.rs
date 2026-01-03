@@ -47,8 +47,8 @@ impl Default for FluidConfig {
             gravity: Vec2::new(0.0, -100.0),
             time_scale: 10.0,
             boundary_damping: 0.4,
-            mouse_radius: 50.0,
-            mouse_strength: 200.0,
+            mouse_radius: 200.0,
+            mouse_strength: 10.0,
         }
     }
 }
